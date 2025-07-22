@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Somesh Kale Portfolio</title>
+
+    <!-- Bulma -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
+    <!-- Bulma Timeline -->
+    <link rel="stylesheet" href="css/bulma-timeline.min.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/716eac212d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Lato font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/keyframes.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.42.4/tsparticles.min.js"></script>
+
+    <script>
+      tsParticles.loadJSON('particles', 'particles.json').then(function (p) {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
+
+    <div class="particles-container">
+      <div id="particles"></div>
+
+      <!-- Start -->
+      <section class="hero transparent-background is-fullheight">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <h5 class="subtitle hi reveal from-left">Hi! My name is</h5>
+            <h1 class="title name is-size-1 reveal from-left">SOMESH KALE</h1>
+
+            <p class="intro reveal from-right">
+              I'm a new grad career in
+              <strong class="intro-bold">software development!</strong> I'm
+              currently expanding my skill and my knowledge.
+              <a
+              
+              >
+            </p>
+
+            <div class="is-container level-item reveal">
+              <a
+                class="icon bluebell icon-margin"
+                href="https://www.linkedin.com/in/somesh-kale-b66339247"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+              <a
+                class="icon bluebell icon-margin"
+                href="https://github.com/somesh1905"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <h1 class="main-title reveal from-left">About Me</h1>
+
+            <div class="columns is-vcentered">
+              <div class="column is-two-thirds">
+                <p class="about-me-body reveal from-right">
+                  I'm Somesh Kale, a passionate and dedicated software developer recently complete my Master of Computer Applications (MCA). 
+                  With a strong foundation in programming and a knack for problem-solving.
+                </p>
+
+                <p class="about-me-body reveal from-right">
+                  I specialize in development, particularly using HTML, CSS, JavaScript, Java and frameworks 
+                  like React. I'm also experienced with tools like VSCode, NetBeans and proficient in MySQL
+                </p>
+
+                <p class="about-me-body reveal from-right">
+                  Beyond coding, I take pride in my leadership abilities, emotional intelligence and 
+                  effective communication. I actively participate in college festivals, and volunteering 
+                  events, reflecting my team-oriented and driven personality.
+
+                </p>
+              </div>
+              <div class="column">
+                <figure class="image avatar reveal from-right">
+                  <img class="round" src="static/WhatsApp Image 2025-02-07 at 6.25.38 PM.jpeg" alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container is-max-desktop">
+          <div class="tile is-ancestor">
+            <!-- Languages -->
+            <div class="tile is-parent is-3">
+              <article class="tile is-child box transparent-background">
+                <div class="skills-container">
+                  <div class="reveal from-left">
+                    <i class="fas fa-code fa-2x"></i>
+                  </div>
+                  <div class="main-subtitle reveal from-left">Languages</div>
+                  <div class="languages">
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="java-color fab fa-java"></i>&nbsp;Java
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="python-color fab fa-python"></i>&nbsp;Python
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="js-color fab fa-js-square"></i>&nbsp;JavaScript
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="react-color fab fa-react"></i>&nbsp;React
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="html-color fab fa-html5"></i>&nbsp;HTML
+                    </div>
+                    <div class="main-body skills-item reveal from-left">
+                      <i class="css-color fab fa-css3"></i>&nbsp;CSS
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Experience -->
+            <div class="tile is-parent is-6">
+              <article class="tile is-child box transparent-background">
+               </article>
+            </div>
+
+            <!-- Software -->
+            <div class="tile is-parent is-3">
+              <article class="tile is-child box transparent-background">
+                <div class="skills-container">
+                  <div class="reveal from-right">
+                    <i class="fas fa-project-diagram fa-2x"></i>
+                  </div>
+                  <div class="main-subtitle reveal from-right">Software</div>
+                  <div class="software">
+                    <div class="main-body skills-item reveal from-right">
+                      Git&nbsp;<i class="fab fa-git-alt fa-x git-color"></i>
+                    </div>
+                    <div class="main-body skills-item reveal from-right">
+                      AWS&nbsp;<i class="fab fa-aws amazon-color"></i>
+                    </div>
+                    <div class="main-body skills-item reveal from-right">
+                      Node.js&nbsp;<i class="fab fa-node node-color"></i>
+                    </div>
+                    <div class="main-body skills-item reveal from-right">
+                      three.js&nbsp;<i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div class="main-body skills-item reveal from-right">
+                      Intellij&nbsp;<i
+                        class="fa-solid fa-layer-group intellij-color"
+                      ></i>
+                    </div>
+                    <div class="main-body skills-item reveal from-right">
+                      Eclipse&nbsp;<i
+                        class="fa-solid fa-layer-group eclipse-color"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+              <h1 class="project-title reveal from-left">Projects</h1>
+
+              <div class="tile is-ancestor">
+                <!-- Online Drugs Store -->
+                <div class="tile is-parent is-4 reveal">
+                  <article class="tile is-child box gray-background">
+                    <div class="media">
+                      <div class="media-left">
+                        </figure>
+                      </div>
+                    </div>
+                    <p class="project-subtitle">Online Drugs Store</p>
+                    <div class="project-meta">
+                      <span class="tag is-dark">HTML</span>
+                      <span class="tag is-dark">CSS</span>
+                      <span class="tag is-dark">Java</span>
+                    </div>
+                    <div class="project-body">
+                      ”The objectives to provide an easy to use interface for customers
+                            to search for medicines, view product details, 
+                            and order products for home delivery
+                    </div>
+                  </article>
+                </div>
+                    
+              
+                <!-- Railway Booking System Project -->
+                <div class="tile is-parent is-4 reveal">
+                  <article class="tile is-child box gray-background">
+                    <div class="media">
+                      <div class="media-left">
+                        </figure>
+                      </div>
+                    </div>
+                    <p class="project-subtitle">Online Movie Ticket</p>
+                    <div class="project-meta">
+                      <span class="tag is-dark">HTML</span>
+                      <span class="tag is-dark">CSS</span>
+                      <span class="tag is-dark">Python</span>
+                    </div>
+                    <div class="project-body">
+                        The ”Online Movies Tickets” An online movie tickets 
+                            system is a digital platform that allows customers 
+                            to access the services of reserve seats and buy tickets
+                    </div>
+                  </article>
+                </div>
+
+                <!-- Personal Website Project -->
+                <div class="tile is-parent is-4 reveal">
+                  <article class="tile is-child box gray-background">
+                    <div class="media">
+                      <div class="media-left">
+                        </figure>
+                      </div>
+                    </div>
+                    <p class="project-subtitle">Personal Website</p>
+                    <div class="project-meta">
+                      <span class="tag is-dark">JavaScript</span>
+                      <span class="tag is-dark">HTML</span>
+                      <span class="tag is-dark">CSS</span>
+                    </div>
+                    <div class="project-body">
+                      Portfolio to showcase programming projects
+                    </div>
+                  </article>
+                </div>
+              </div>
+              </div>
+              </section>
+      <!-- Projects -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+              <div class="tile is-ancestor">
+                <!-- E-Learning -->
+                <div class="tile is-parent is-4 reveal">
+                  <article class="tile is-child box gray-background">
+                    <div class="media">
+                      <div class="media-left">
+                        </figure>
+                      </div>
+                    </div>
+                    <p class="project-subtitle">E-Learning</p>
+                    <div class="project-meta">
+                      <span class="tag is-dark">HTML</span>
+                      <span class="tag is-dark">CSS</span>
+                      <span class="tag is-dark">React</span>
+                      <span class="tag is-dark">Nodejs</span>
+                    </div>
+                    <div class="project-body">
+                      ”Developed a web-based E-Learning platform that enables students 
+                       to access study materials, take quizzes, submit assignments, 
+                       and interact with instructors online. In this project 
+                       I use the technologies HTML, CSS, React, Nodejs and database is MYSQL
+                    </div>
+                  </article>
+                </div>
+                    
+              
+                <!--Library Management System -->
+                <div class="tile is-parent is-4 reveal">
+                  <article class="tile is-child box gray-background">
+                    <div class="media">
+                      <div class="media-left">
+                        </figure>
+                      </div>
+                    </div>
+                    <p class="project-subtitle">Library Management System</p>
+                    <div class="project-meta">
+                      <span class="tag is-dark">HTML</span>
+                      <span class="tag is-dark">CSS</span>
+                      <span class="tag is-dark">JavaScript</span>
+                      <span class="tag is-dark">Java</span>
+                    </div>
+                    <div class="project-body">
+                        The Library Management System automates the existing manual system 
+                        by storing and managing all the data about students and books online. 
+                        In this project use the technologies HTML, CSS, Java and database is MYSQL
+                    </div>
+                  </article>
+                </div>
+
+               
+              </div>
+              </div>
+              </section>
+
+
+      <!-- Resume -->
+      <section class="hero transparent-background">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <div class="reveal">
+              <a
+                class="button is-large resume-button"
+                href="static/Somesh_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="icon is-medium">
+                  <i class="fas fa-file"></i>
+                </span>
+                <span>Resume</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <div class="co">
+        <div class="contact-container">
+          <h2>Contact Me</h2>
+          <form id="contactForm">
+            <div class="input-group">
+              <label for="name">Name</label>
+          <input type="text" id="Name" name="Name" required />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="someshkale2020@gmail.com" name="someshkale2020@gmail.com" required />
+        </div>
+        
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="responseMessage"></p>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
